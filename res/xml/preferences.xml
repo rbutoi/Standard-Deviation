@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <CheckBoxPreference
+        android:key="pref_mean"
+        android:title="@string/pref_mean"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_median"
+        android:title="@string/pref_median"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_mode"
+        android:title="@string/pref_mode"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_dev"
+        android:title="@string/pref_dev"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_var"
+        android:title="@string/pref_var"
+        android:defaultValue="true" />
+    <CheckBoxPreference
+        android:key="pref_range"
+        android:title="@string/pref_range"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
